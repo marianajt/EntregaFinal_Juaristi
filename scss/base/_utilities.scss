@@ -15,12 +15,6 @@
     gap: $gap;
 }
 
-@mixin imagenes($width,$height,$object){
-    width: $width;
-    height: $height;
-    object-fit: $object;
-}
-
 /*extend*/
 .d-flex{
     display: flex;
@@ -30,3 +24,8 @@
     gap: 15px;
 }
 
+/*imagenes*/
+
+  .left {
+    text-align: left;
+  }
