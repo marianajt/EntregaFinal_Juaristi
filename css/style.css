@@ -79,25 +79,46 @@ main h2 {
 main .padd {
   margin: 2rem;
 }
+main .divcliente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+main .divcliente h3 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+main .divcliente h3 b {
+  color: rgb(32, 73, 165);
+}
 main .mainima {
   width: 100%;
   height: 400px;
   object-fit: cover;
+}
+main .contacto {
+  background-color: rgb(32, 73, 165);
+  color: white;
+  text-align: center;
+  margin: 2rem;
+  padding: 4rem;
 }
 
 .center {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 20px;
   justify-content: center;
 }
 .center .clientes {
-  height: auto;
+  height: 150px;
 }
 .center .clientes img {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
 
 .cajas {
